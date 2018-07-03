@@ -6,6 +6,7 @@ spring:
     url: jdbc:mysql://localhost/ssm_crud?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
+    database: MYSQL
 server:
   context-path: /cms
   port: 8099
