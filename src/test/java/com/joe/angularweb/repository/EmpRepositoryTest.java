@@ -20,26 +20,26 @@ public class EmpRepositoryTest {
     @Autowired
     private EmpRepository empRepository;
 
-    @Test
+    //@Test
     public void findOneTest() {
         Employee employee = empRepository.findOne(1);
         Assert.assertNotNull(employee);
     }
 
-    @Test
+    //@Test
     public void findAllTest() {
         List<Employee> employeeList = empRepository.findAll();
         Assert.assertNotEquals(0,employeeList.size());
 
     }
 
-    @Test
+    //@Test
     public void findByGenderTest(){
         List<Employee> employeeList = empRepository.findByGender("M");
         Assert.assertNotEquals(0,employeeList.size());
     }
 
-    @Test
+    //@Test
     public void saveTest() {
         Employee employee = new Employee();
         employee.setEmpName("张三");
