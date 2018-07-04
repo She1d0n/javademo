@@ -67,10 +67,10 @@
        <name>Maven aliyun Mirror</name>
        <url>http://repo.inspur.com:8081/artifactory/maven-iopdev-virtual/</url>
        <releases>
-         <enabled >true</enabled>
+         <enabled>true</enabled>
        </releases>
        <snapshots>
-         <enabled >false</enabled>
+         <enabled>false</enabled>
        </snapshots>
      </repository>
    </repositories>
@@ -80,10 +80,10 @@
        <name>Maven aliyun Mirror</name>
        <url>http://repo.inspur.com:8081/artifactory/maven-iopdev-virtual/</url>
        <releases>
-         <enabled >true</enabled>
+         <enabled>true</enabled>
        </releases>
        <snapshots>
-         <enabled >false</enabled>
+         <enabled>false</enabled>
        </snapshots>    
      </pluginRepository>
    </pluginRepositories>
