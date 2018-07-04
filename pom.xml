@@ -19,7 +19,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <repoRoot>http://maven.net.cn/content/groups/public/ </repoRoot>
     </properties>
 
     <dependencies>
@@ -66,7 +65,7 @@
      <repository>
        <id>maven-net-cn</id>
        <name>Maven China Mirror</name>
-       <url>http://repo.inspur.com:8081/artifactory//</url>
+       <url>http://repo.inspur.com:8081/artifactory/</url>
        <releases>
          <enabled >true</enabled>
        </releases>
