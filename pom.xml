@@ -64,7 +64,7 @@
      <repository>
        <id>aliyun</id>
        <name>Maven aliyun Mirror</name>
-       <url>http://repo.inspur.com:8081/artifactory/jcenter/</url>
+       <url>http://repo.inspur.com:8081/artifactory/maven-center-virtual/</url>
        <releases>
          <enabled>true</enabled>
        </releases>
@@ -77,7 +77,7 @@
      <pluginRepository>
        <id>aliyun</id>
        <name>Maven aliyun Mirror</name>
-       <url>http://repo.inspur.com:8081/artifactory/jcenter/</url>
+       <url>http://repo.inspur.com:8081/artifactory/maven-center-virtual/</url>
        <releases>
          <enabled>true</enabled>
        </releases>
