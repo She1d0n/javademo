@@ -66,7 +66,7 @@
      <repository>
        <id>maven-net-cn</id>
        <name>Maven China Mirror</name>
-       <url>${project.repoRoot}</url>
+       <url>http://maven.net.cn/content/groups/public/</url>
        <releases>
          <enabled >true</enabled>
        </releases>
@@ -79,7 +79,7 @@
      <pluginRepository>
        <id>maven-net-cn</id>
        <name>Maven China Mirror</name>
-       <url>${project.repoRoot}</url>
+       <url>http://maven.net.cn/content/groups/public/</url>
        <releases>
          <enabled >true</enabled>
        </releases>
