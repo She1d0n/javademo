@@ -65,7 +65,7 @@
      <repository>
        <id>maven-net-cn</id>
        <name>Maven China Mirror</name>
-       <url>http://repo.inspur.com:8081/artifactory/</url>
+       <url>http://repo.inspur.com:8081/artifactory/maven-iop-releases/</url>
        <releases>
          <enabled >true</enabled>
        </releases>
@@ -78,7 +78,7 @@
      <pluginRepository>
        <id>maven-net-cn</id>
        <name>Maven China Mirror</name>
-       <url>http://repo.inspur.com:8081/artifactory/</url>
+       <url>http://repo.inspur.com:8081/artifactory/maven-iop-releases/</url>
        <releases>
          <enabled >true</enabled>
        </releases>
