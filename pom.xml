@@ -65,9 +65,7 @@
      <repository>
        <id>central</id>
        <name>Maven inspur Mirror</name>
-       <username>iop</username>
-       <password>AP7u6RRiWi36mptXCpBMiUaQE4p</password>
-       <url>http://repo.inspur.com:8081/artifactory/maven-iopdev-virtual/</url>
+       <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
        <releases>
          <enabled >true</enabled>
        </releases>
@@ -80,9 +78,7 @@
      <pluginRepository>
        <id>central</id>
        <name>Maven Inspur Mirror</name>
-       <username>iop</username>
-       <password>AP7u6RRiWi36mptXCpBMiUaQE4p</password>
-       <url>http://repo.inspur.com:8081/artifactory/maven-iopdev-virtual/</url>
+       <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
        <releases>
          <enabled >true</enabled>
        </releases>
