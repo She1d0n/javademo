@@ -14,7 +14,13 @@
         <version>1.5.3.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-
+    <servers>
+      <server>
+        <id>central</id>
+        <username>iop</username>
+        <password>123456a?</password>
+      </server>
+    </servers>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
