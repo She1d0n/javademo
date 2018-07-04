@@ -64,7 +64,7 @@
     <repositories>
      <repository>
        <id>central</id>
-       <name>Maven inspur Mirror</name>
+       <name>Maven aliyun Mirror</name>
        <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
        <releases>
          <enabled >true</enabled>
@@ -77,7 +77,7 @@
    <pluginRepositories>
      <pluginRepository>
        <id>central</id>
-       <name>Maven Inspur Mirror</name>
+       <name>Maven aliyun Mirror</name>
        <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
        <releases>
          <enabled >true</enabled>
