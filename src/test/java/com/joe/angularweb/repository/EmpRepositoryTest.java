@@ -13,8 +13,8 @@ import java.util.List;
 /**
  * Created by 180297 on 2017/12/13.
  */
-@RunWith(SpringRunner.class)
-@SpringBootTest
+//@RunWith(SpringRunner.class)
+//@SpringBootTest
 public class EmpRepositoryTest {
 
     @Autowired
