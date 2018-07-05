@@ -41,7 +41,7 @@ App.factory('EmpService', ['$http', '$q', function ($http, $q) {
         },
 
         deleteEmp: function (empId) {
-            return $http.delete('http://localhost:8099/cms/emp/del/' + empId)
+            return $http.delete('/emp/del/' + empId)
                 .then(
                     function (response) {
                         return response.data.msg;
