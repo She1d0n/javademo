@@ -22,8 +22,8 @@
             background-color: yellow;
         }
     </style>
-    <link rel="stylesheet" href="/cms/css/bootstrap.min.css">
-    <link href="/cms/css/app.css" rel="stylesheet"></link>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/app.css" rel="stylesheet"></link>
 </head>
 <body ng-app="myApp" class="ng-cloak">
 <div class="generic-container" ng-controller="EmpController as ctrl">
@@ -97,9 +97,9 @@
     </div>
 </div>
 
-<script type="text/javascript" src="/cms/js/angular.js"></script>
-<script type="text/javascript" src="/cms/js/app.js"></script>
-<script type="text/javascript" src="/cms/js/service/empService.js"></script>
-<script type="text/javascript" src="/cms/js/controller/empController.js"></script>
+<script type="text/javascript" src="js/angular.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/service/empService.js"></script>
+<script type="text/javascript" src="js/controller/empController.js"></script>
 </body>
 </html>
