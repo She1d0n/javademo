@@ -12,10 +12,13 @@ import org.springframework.web.servlet.ModelAndView;
 @SpringBootApplication
 @Controller
 public class AngularApplication {
-
+    
+    @Value("${spring.title}") 
+    private String title;
     @RequestMapping("/")
-    public ModelAndView index(){
-        return new ModelAndView("home");
+    public String index(Model model){
+        model.addAttribute("title",title);
+        return "home.ftl";
     }
 
 
