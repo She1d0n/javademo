@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>SpringBoot-angualar实例</title>
+    <title>${title}</title>
     <style>
         .empName.ng-valid {
             background-color: lightgreen;
