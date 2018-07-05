@@ -5,7 +5,7 @@ App.factory('EmpService', ['$http', '$q', function ($http, $q) {
     return {
 
         fetchAllEmps: function () {
-            return $http.get('/emp/list')
+            return $http.get('emp/list')
                 .then(
                     function (response) {
                         return response.data.data;
@@ -17,7 +17,7 @@ App.factory('EmpService', ['$http', '$q', function ($http, $q) {
         },
 
         createEmp: function (emp) {
-            return $http.post('/emp/save', emp)
+            return $http.post('emp/save', emp)
                 .then(
                     function (response) {
                         return response.data.data;
@@ -29,7 +29,7 @@ App.factory('EmpService', ['$http', '$q', function ($http, $q) {
         },
 
         updateEmp: function (emp) {
-            return $http.post('/emp/save', emp)
+            return $http.post('emp/save', emp)
                 .then(
                     function (response) {
                         return response.data.data;
@@ -41,7 +41,7 @@ App.factory('EmpService', ['$http', '$q', function ($http, $q) {
         },
 
         deleteEmp: function (empId) {
-            return $http.delete('/emp/del/' + empId)
+            return $http.delete('emp/del/' + empId)
                 .then(
                     function (response) {
                         return response.data.msg;
