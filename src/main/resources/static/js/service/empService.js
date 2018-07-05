@@ -5,7 +5,7 @@ App.factory('EmpService', ['$http', '$q', function ($http, $q) {
     return {
 
         fetchAllEmps: function () {
-            return $http.get('http://localhost:8099/cms/emp/list')
+            return $http.get('/emp/list')
                 .then(
                     function (response) {
                         return response.data.data;
@@ -17,7 +17,7 @@ App.factory('EmpService', ['$http', '$q', function ($http, $q) {
         },
 
         createEmp: function (emp) {
-            return $http.post('http://localhost:8099/cms/emp/save', emp)
+            return $http.post('/emp/save', emp)
                 .then(
                     function (response) {
                         return response.data.data;
@@ -29,7 +29,7 @@ App.factory('EmpService', ['$http', '$q', function ($http, $q) {
         },
 
         updateEmp: function (emp) {
-            return $http.post('http://localhost:8099/cms/emp/save', emp)
+            return $http.post('/emp/save', emp)
                 .then(
                     function (response) {
                         return response.data.data;
