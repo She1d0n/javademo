@@ -12,7 +12,7 @@ File Encoding         : 65001
 
 Date: 2017-12-14 17:31:58
 */
-
+CREATE DATABASE IF NOT EXISTS ssm_crud DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
