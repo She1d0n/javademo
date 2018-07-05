@@ -8,7 +8,7 @@ spring:
     show-sql: true
     database: MYSQL
 server:
-  context-path: /cms
+  context-path: /
   port: 8080
 
 
