@@ -9,6 +9,6 @@ spring:
     database: MYSQL
 server:
   context-path: /cms
-  port: 8099
+  port: 8080
 
 
