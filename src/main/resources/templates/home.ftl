@@ -28,7 +28,7 @@
 <body ng-app="myApp" class="ng-cloak">
 <div class="generic-container" ng-controller="EmpController as ctrl">
     <div class="panel panel-primary">
-        <div class="panel-heading"><span class="lead">SpringBoot整合AngularJS</span></div>
+        <div class="panel-heading"><span class="lead">${title}</span></div>
         <div class="formcontainer">
             <form ng-submit="ctrl.submit()" name="myForm" class="form-horizontal">
                 <input type="hidden" ng-model="ctrl.emp.empId" />
