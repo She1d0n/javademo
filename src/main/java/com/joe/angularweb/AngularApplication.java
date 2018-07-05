@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.ui.Model;
+import org.springframework.web.servlet.ModelAndView;
 
 /**
  * Created by 180297 on 2017/12/13.
@@ -17,10 +17,13 @@ public class AngularApplication {
     @Value("${spring.title}") 
     private String title;
     
+    
     @RequestMapping("/")
-    public String index(Model model){
-        model.addAttribute("title",title);
-        return "/home.ftl";
+    public ModelAndView index(){
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("home");
+        mv.addObject("title",title);
+        return mv;
     }
 
 
