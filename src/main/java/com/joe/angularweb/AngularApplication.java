@@ -16,10 +16,11 @@ public class AngularApplication {
     
     @Value("${spring.title}") 
     private String title;
+    
     @RequestMapping("/")
     public String index(Model model){
         model.addAttribute("title",title);
-        return "home.ftl";
+        return "/home.ftl";
     }
 
 
